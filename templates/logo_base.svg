@@ -9,7 +9,6 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    width="54.257511"
    height="54.310791"
@@ -94,7 +93,48 @@
      id="g939"
      transform="matrix(0.0756046,0,0,0.11361717,-2.7870819,-0.34072318)"
      clip-path="url(#clipPath941)">
-    <image xlink:href="././flags/nonbinary.svg" ></image>
+    <rect
+       id="rect913"
+       height="480"
+       width="777"
+       x="0"
+       y="0"
+       style="fill:#750787" />
+    <rect
+       id="rect915"
+       height="400"
+       width="777"
+       x="0"
+       y="0"
+       style="fill:#004dff" />
+    <rect
+       id="rect917"
+       height="320"
+       width="777"
+       x="0"
+       y="0"
+       style="fill:#008026" />
+    <rect
+       id="rect919"
+       height="240"
+       width="777"
+       x="0"
+       y="0"
+       style="fill:#ffed00" />
+    <rect
+       id="rect921"
+       height="160"
+       width="777"
+       x="0"
+       y="0"
+       style="fill:#ff8c00" />
+    <rect
+       id="rect923"
+       height="80"
+       width="777"
+       x="0"
+       y="0"
+       style="fill:#e40303" />
   </g>
   <text
      xml:space="preserve"
