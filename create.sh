@@ -1,4 +1,6 @@
 #!/bin/bash
+set -o errexit
+set -o nounset
 
 cd $(dirname $0)
 
@@ -22,4 +24,21 @@ for FLAG in ./flags/*.svg ; do
     echo $NAME
 done
 
+# alas this are broken, flag is all stretched
+rm *.leather_bdsm.*png *bear*.png *intersex*.png
+
 exiftool -overwrite_original -XMP-dc:Rights="This work is licensed to the public under the Creative Commons Attribution-ShareAlike license http://creativecommons.org/licenses/by-sa/4.0/" -xmp:usageterms="This work is licensed to the public under the Creative Commons Attribution-ShareAlike license http://creativecommons.org/licenses/by-sa/4.0/" -XMP-cc:license="http://creativecommons.org/licenses/by-sa/4.0/" -XMP-cc:AttributionName="R McCann" -XMP-cc:AttributionURL="www.technomancy.org" *.png
+
+
+rm -rf montage_images
+mkdir montage_images
+for FLAG in ./flags/*.svg ; do
+    NAME=${FLAG}
+    NAME=${NAME##.*/}
+    NAME=${NAME%%.svg}
+    if [ -f  ./OSM_white_bg_with_small_border.${NAME}.100.png ] ; then
+        convert \( ./OSM_white_bg_with_small_border.${NAME}.100.png ./OSM_white_bg_with_small_border.${NAME}.100.nb.png +append \) -background white -gravity Center label:"${NAME}" -append ./montage_images/${NAME}.png
+    fi
+done
+montage ./montage_images/*.png  -geometry 200x120 montage.png
+rm -rf montage_images
