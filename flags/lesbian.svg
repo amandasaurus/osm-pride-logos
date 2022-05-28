@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 480"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     >Lesbian 5 colour version</title>
+  <rect
+     fill="#D52D00"
+     width="100%"
+     height="20%"
+     x="0"
+      />
+  <rect
+     fill="#FF9A55"
+     width="100%"
+     height="20%"
+     y="20%"
+      />
+  <rect
+     fill="#FFFFFF"
+     width="100%"
+     height="20%"
+     y="40%"
+      />
+  <rect
+     fill="#D362A4"
+     width="100%"
+     height="20%"
+     y="60%"
+      />
+  <rect
+     fill="#8A0253"
+     width="100%"
+     height="20%"
+     y="80%"
+      />
+  <metadata
+     >
+    <rdf:RDF>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:title>Lesbian 5 colour version</dc:title>
+        <dc:date>May 2022</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
